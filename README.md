@@ -27,9 +27,9 @@ SP test utility will be run via command line
 
 ### Create site
 
-`Type` = `createSite`
-`Description` = string
-`Title` = string
-`Url` = string - url of the site to create
-`ParentSiteUrl` = string - url of the parent site.
-`UseSamePermissionsAsParentSite` = boolean
+* `Type` = `createSite`
+* `Description` = string
+* `Title` = string
+* `Url` = string - url of the site to create
+* `ParentSiteUrl` = string - url of the parent site.
+* `UseSamePermissionsAsParentSite` = boolean
