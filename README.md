@@ -22,6 +22,11 @@ SP test utility will be run via command line
   --version                  Display version information.
 ```
 
+## Example:
+
+```
+./SharepointTestUtility -u $username -p $password -w $webAppUrl -d $domain -a action-file.json
+```
 
 ## Action file format
 
@@ -30,6 +35,7 @@ SP test utility will be run via command line
 * `Type` = `createSite`
 * `Description` = string
 * `Title` = string
-* `Url` = string - url of the site to create
+* `Url` = string - url of the site to create *relative to the parent site url with no leading slash. For example "mysubsite".
 * `ParentSiteUrl` = string - url of the parent site.
 * `UseSamePermissionsAsParentSite` = boolean
+
